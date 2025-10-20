@@ -31,11 +31,19 @@ li {
   font-size : 22px; 
 }
 
+fieldset {
+  border: 4px, solid #ccc;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
 div {
   max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 5px solid #ccc;
+  margin: 5px auto;
+  padding: 10px;
+  border: 2px solid #ccc;
   border-radius: 10px;
   background-color: #f9f9f9;
 }
@@ -45,6 +53,17 @@ div label {
   font-weight: bold;
   background-color: #d6b2ff;
 }
+div select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 div input, div textarea {
   width: 100%;
   padding: 10px;
@@ -52,4 +71,16 @@ div input, div textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+}
+button {
+  background-color: #d6b2ff;
+  color : black;
+  width: auto;
+  padding: 10px;
+  margin: 10px 350px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
 }

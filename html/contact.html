@@ -24,29 +24,54 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Nous contacter</h1>
-        <div>
-            <form class="#" action="" method="post">
-            <label for="name">Nom :</label><br>
-            <input type="text" id="name" name="name" required>
-            <br><br>
+            <form class="#" action="#" method="GET">
+            <fieldset>
+                <legend><h1>Nous contacter</h1></legend>
+                    <div>
+                        <label for="name">Nom :</label>
+                        <br>
+                        <input type="text" id="name" name="name" required>
+                        <br><br>
+                    
+                        <label for="surname">Prénom :</label>
+                        <br>
+                        <input type="text" id="surname" name="surname" required>
+                        <br><br>
+                        <label for="email">Email :</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                        <br><br>
+                        <label for="tel">Téléphone :</label>
+                        <br>
+                        <input type="tel" id="tel" name="tel">
+                    </div><br>
+                    <div>
+                        <label for="theme">Thème :</label>
+                        <select id="theme" name="theme" required>
+                            <option value="Renseignements">Renseignements</option>
+                            <option value="Support Technique">Support Technique</option>
+                            <option value="other">Autre</option>
+                        </select>
+                        <br><br>
+                        <label for="subject">Sujet</label>
+                        <select name="subject" id="subject">
+                            <option value="Renseignements">Création d'un événement</option>
+                            <option value="Renseignements">Partenariat</option>
+                            <option value="Support Technique">Signaler un bug</option>
+                            <option value="Support Technique">Problème de compte</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    <br><br>
 
-            <label for="surname">Prénom :</label><br>
-            <input type="text" id="surname" name="surname" required>
-            <br><br>
-
-            <label for="email">Email :</label><br>
-            <input type="email" id="email" name="email" required>
-            <br><br>
-
-            <label for="tel">Téléphone :</label><br>
-            <input type="tel" id="tel" name="tel">
-            <br><br>
-
-            <label for="message">Message :</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                        <label for="message">Message :</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                        <br>
+                    </div><br>
+                        <button type="submit">Envoyer</button>
+            </fieldset>
+                
             </form>
-        </div>
-    </main>
+    <footer>
+        <p>&copy; 2021 Esportify</p>
+    </footer>
 </body>
