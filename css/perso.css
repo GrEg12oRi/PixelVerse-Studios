@@ -35,3 +35,10 @@ li {
   margin-right : 25px;
   font-size : 22px; 
 }
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}

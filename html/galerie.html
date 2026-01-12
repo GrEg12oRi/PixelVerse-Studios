@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password forgotten</title>
+    <title>Galerie des personnages</title>
     <link rel="stylesheet" href="../css/galerie.css">
 </head>
 
@@ -11,7 +11,7 @@
     <header>
         <!--Logo-->
         <a class="logo" href="accueil.html">
-            <img src="../Electronic-Arts-Logo-2000-present-300x169.png.webp" alt="Logo"width="100" height="70">
+            <img src="../images/Electronic-Arts-Logo-2000-present-300x169.png.webp" alt="Logo"width="100" height="70">
         </a>
         <nav id="header-list">
             <ul>
@@ -23,4 +23,73 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <h1>Galerie des Personnages</h1>
+        <section>
+            <div>
+                <h2>Découvrez les personnages façonnés par notre communauté !</h2>
+                <p>Chaque personnnage reflète la créativité et l'imagination de sa conception, offrant un aperçu fascinant des possibilités infinies offertes par notre système de création de personnages.</p>
+            </div>
+            <div class="filter">
+                <label for="category">Filtrer par catégorie :</label>
+                <select id="category" name="category">
+                    <option value="all">Tous</option>
+                    <option value="warrior">Guerriers</option>
+                    <option value="mage">Mages</option>
+                    <option value="archer">Archers</option>
+                </select>
+                <label for="genre">Filtrer par genre :</label>
+                <select id="genre" name="genre">
+                    <option value="all">Tous</option>
+                    <option value="male">Masculin</option>
+                    <option value="female">Féminin</option>
+                </select>
+                <label for="date">Filtrer par date de création :</label>
+                <select id="date" name="date">
+                    <option value="all">Toutes</option>
+                    <option value="last_week">Dernière semaine</option>
+                    <option value="last_month">Dernier mois</option>
+                    <option value="last_year">Dernière année</option>
+                </select>
+                <label for="username">Filtrer pas Pseudo</label>
+                <input type="text" id="username" name="username" placeholder="Entrez le pseudo">
+            </div>
+            <div>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="../images/perso1.png" alt="Personnage 1">
+                        <p>Personnage 1 créé par Pseudo 1</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso1.png" alt="Personnage 2">
+                        <p>Personnage 2 créé par Pseudo 2</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso1.png" alt="Personnage 3">
+                        <p>Personnage 3 créé par Pseudo 3</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso1.png" alt="Personnage 4">
+                        <p>Personnage 4 créé par Pseudo 4</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso5.png" alt="Personnage 5">
+                        <p>Personnage 5 créé par Pseudo 5</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso6.jpg" alt="Personnage 6">
+                        <p>Personnage 6 créé par Pseudo 6</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso7.jpg" alt="Personnage 7">
+                        <p>Personnage 7 créé par Pseudo 7</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/perso8.jpg" alt="Personnage 8">
+                        <p>Personnage 8 créé par Pseudo 8 </p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
