@@ -4,40 +4,44 @@ header{
   height: 75px;
   display: flex;
   justify-content: space-between;
-  
 }
 
-#header-list a {
-  color: #CCAC00;
-}
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 20px;
-  
 }
+
 nav {
   display: flex;
   align-items: center;
   margin-right: 20px;
-  
-}
-nav ul {
-  list-style-type: none;
-  
-  
-}
-li {
-  display: inline;
-  margin-right : 25px;
-  font-size : 22px; 
-
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #CCAC00;
   font-weight: bold;
-  
+}
+
+nav a:hover {
+  color: #FFDD00;
+}
+
+li {
+  display: inline;
+  margin-right : 25px;
+  font-size : 22px; 
+}
+
+footer {
+  background-color: #036;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
