@@ -1,3 +1,16 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #c28e0063;
+  color: #003366;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header{
   background-color: #003366;
   width: 100%;
@@ -42,18 +55,20 @@ fieldset {
   margin: 20px auto;
   padding: 10px 10px 0px 10px;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #e0e0e0;
 }
+
 fieldset legend {
   font-size: 28px;
   font-weight: bold;
-  color: #003366;
 }
+
 fieldset h1 {
   margin: 0;
   padding: 0;
 }
-fieldset button {
+
+button {
   display: flex;
   align-items: center;
   background-color: #003366;
@@ -66,20 +81,27 @@ fieldset button {
   font-size: 18px;
   font-weight: bold;
 }
+
+button:hover {
+  background-color: #CCAC00;
+  color: #003366;
+}
+
 div {
   max-width: 600px;
   margin: 5px auto;
   padding: 10px;
   border: 2px solid #CCAC00;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #e0e0e0;
 }
+
 div label {
   margin: 5px;
   font-size: 20px;
   font-weight: bold;
-  color: #003366;
 }
+
 div select {
   width: 100%;
   padding: 10px;
@@ -89,6 +111,7 @@ div select {
   box-sizing: border-box;
   font-size: 16px;
   cursor: pointer;
+  background-color: #e0e0e0 ;
 }
 
 div input, div textarea {
@@ -98,11 +121,12 @@ div input, div textarea {
   border: 2px solid #CCAC00;
   border-radius: 5px;
   box-sizing: border-box;
+  background-color: #e0e0e0;
 }
 
 footer {
   background-color: #036;
-  color: white;
+  color: #CCAC00;
   text-align: center;
   padding: 10px;
   position: fixed;
