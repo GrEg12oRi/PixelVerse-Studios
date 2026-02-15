@@ -80,15 +80,6 @@ div img {
   align-items: center;
 }
 
-#game {
-  margin-left: auto;
-}
-
-#assets {
-  margin: 20px auto;
-  max-width: fit-content;
-}
-
 div a {
   background-color: #003366;
   color: #CCAC00;
