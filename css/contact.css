@@ -129,7 +129,7 @@ footer {
   color: #CCAC00;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: bottom;
   bottom: 0;
   width: 100%;
   height: 50px;

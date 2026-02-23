@@ -40,6 +40,7 @@ nav a {
 
 nav a:hover {
   color: #FFDD00;
+  
 }
 
 li {
@@ -109,7 +110,7 @@ footer {
   color: #CCAC00;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: bottom;
   bottom: 0;
   width: 100%;
   height: auto;
