@@ -51,9 +51,9 @@ li {
 
 fieldset {
   border: 4px, solid #CCAC00;
-  max-width: 800px;
+  max-width: 40%;
   margin: 20px auto;
-  padding: 10px 10px 0px 10px;
+  padding: 10px;
   border-radius: 10px;
   background-color: #e0e0e0;
 }
@@ -129,7 +129,7 @@ footer {
   color: #CCAC00;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
   height: 50px;

@@ -82,6 +82,12 @@ li {
   object-position: center;
 }
 
+a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
 footer {
   background-color: #036;
   color: #CCAC00;

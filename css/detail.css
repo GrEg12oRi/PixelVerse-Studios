@@ -53,62 +53,67 @@ h1 {
   font-size: 54px;
   font-family: 'Arial Black', sans-serif;
 }
+h2 {
+  text-align: center;
+  margin : 10px;
+  font-size: 30px;
+}
 
 section {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
-div {
-  padding: 10px;
-  margin: 10px;
-}
-
-div img { 
-  max-width: 100%;
-  height: auto;
-}
-.gallery-item {
-  margin: 5px;
-  border: 2px solid #003366;
-  padding: 5px;
-  width: 500px;
-  height: 500px;
+.comments-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 20px;
 }
 
-#perso {
+button {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-}
-
-#button {
-  display: flex; 
-  justify-content: center;
-}
-
-div button {
-  display: flex; 
-  justify-content: center;
-  margin: 10px ;
   background-color: #003366;
   color : #CCAC00;
   width: auto;
   padding: 10px;
+  margin: 10px auto;
   border-radius: 10px;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
 }
 
-div button:hover {
+button:hover {
   background-color: #CCAC00;
   color: #003366;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  max-width: 40%;
+  text-align: center;
+}
+
+div img { 
+  max-width: 75%;
+  height: auto;
+  border: #003366 solid 2px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 18px;
+  color: #003366;
+  margin: 10px;
 }
 
 footer {
@@ -116,7 +121,7 @@ footer {
   color: #CCAC00;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
   height: auto;
