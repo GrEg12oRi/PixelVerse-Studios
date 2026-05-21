@@ -3,6 +3,8 @@ import { allRoutes, websiteName } from "./allRoutes.js";
 
 // Création d'une route pour la page 404 (page introuvable)
 const route404 = new Route("404", "Page introuvable", "../html/404.html");
+const routeAcc = new Route("/", "accueil", "../html/accueil.html");
+const routeCont = new Route("/", "contact", "../html/contact.html");
 
 // Fonction pour récupérer la route correspondant à une URL donnée
 const getRouteByUrl = (url) => {
@@ -17,7 +19,7 @@ const getRouteByUrl = (url) => {
   if (currentRoute != null) {
     return currentRoute;
   } else {
-    return route404;
+    return route40;
   }
 };
 

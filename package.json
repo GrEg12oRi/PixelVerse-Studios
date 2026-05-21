@@ -1,0 +1,24 @@
+{
+  "name": "esportify",
+  "version": "1.0.0",
+  "description": "Ce site est un système de gestion de personnage pour le jeu Fantasy Realm Online du studio PixelVerse Studios",
+  "homepage": "https://github.com/GrEg12oRi/Esportify#readme",
+  "bugs": {
+    "url": "https://github.com/GrEg12oRi/Esportify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrEg12oRi/Esportify.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  }
+}

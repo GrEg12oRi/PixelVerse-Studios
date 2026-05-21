@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-header{
+header {
   background-color: #003366;
   width: 100%;
   height: 75px;
@@ -34,24 +34,25 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #CCAC00;
+  color: #ccac00;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #FFDD00;
+  color: #ffdd00;
 }
 
 li {
   display: inline;
-  margin-right : 25px;
-  font-size : 22px; 
+  margin-right: 25px;
+  font-size: 22px;
 }
 h1 {
   text-align: center;
   margin-top: 20px;
   font-size: 54px;
-  font-family: 'Arial Black', sans-serif;
+  font-family:
+    "Arial Black", sans-serif;
 }
 
 section {
@@ -64,7 +65,7 @@ div {
   margin: 10px;
 }
 
-div img { 
+div img {
   max-width: 100%;
   height: auto;
 }
@@ -88,16 +89,16 @@ div img {
 }
 
 #button {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
 div button {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  margin: 10px ;
+  margin: 10px;
   background-color: #003366;
-  color : #CCAC00;
+  color: #ccac00;
   width: auto;
   padding: 10px;
   border-radius: 10px;
@@ -107,13 +108,13 @@ div button {
 }
 
 div button:hover {
-  background-color: #CCAC00;
+  background-color: #ccac00;
   color: #003366;
 }
 
 footer {
   background-color: #036;
-  color: #CCAC00;
+  color: #ccac00;
   text-align: center;
   padding: 10px;
   position: fixed;
