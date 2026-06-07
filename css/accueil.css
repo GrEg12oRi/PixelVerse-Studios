@@ -69,7 +69,7 @@ div img {
   max-width: fit-content;
 }
 
-div a {
+.btn1 {
   background-color: #003366;
   color: #CCAC00;
   border: none;

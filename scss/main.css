@@ -3779,7 +3779,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
-  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-hover-color: #ffdd00;
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -11979,4 +11979,38 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+a {
+  color: #FFDD00;
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 75px;
+}
+
+.nav-link {
+  color: #CCAC00;
+}
+
+.navbar-dark,
+.navbar[data-bs-theme=dark] {
+  --bs-navbar-hover-color: #ffdd00;
+}
+
+footer.footer {
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  font-family: "Mooli", serif;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */

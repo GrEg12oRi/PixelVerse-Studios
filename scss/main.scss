@@ -1,2 +1,35 @@
 @import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");
-@import 'custom';
+@import "custom";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+a {
+  color: $tertiary;
+  text-decoration: none;
+
+}
+main {
+  margin-bottom: 75px;
+}
+.nav-link{
+  color: $secondary;
+}
+
+.navbar-dark,
+.navbar[data-bs-theme="dark"] {
+  --bs-navbar-hover-color: #ffdd00;
+}
+
+footer.footer {
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+//changement de police pour les paragraphes
+p{
+  font-family: $font-family-serif;
+  font-size: 18px;
+}
