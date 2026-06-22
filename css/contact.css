@@ -11,47 +11,8 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: #003366;
-  width: 100%;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20px;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #ccac00;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #ffdd00;
-}
-
-li {
-  display: inline;
-  margin-right: 25px;
-  font-size: 22px;
-}
-
 fieldset {
-  border:
-    4px,
-    solid #ccac00;
+  border: 4px solid #ccac00;
   max-width: 40%;
   margin: 20px auto;
   padding: 10px;
@@ -126,7 +87,7 @@ div textarea {
   background-color: #e0e0e0;
 }
 
-footer {
+#main-page footer {
   background-color: #036;
   color: #ccac00;
   text-align: center;
@@ -135,4 +96,14 @@ footer {
   bottom: 0;
   width: 100%;
   height: 50px;
+}
+
+@media (max-width: 768px) {
+  fieldset {
+    max-width: 90%;
+  }
+
+  div {
+    max-width: 100%;
+  }
 }
