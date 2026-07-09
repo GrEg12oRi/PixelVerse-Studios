@@ -2,12 +2,6 @@
   <img src="./images/banniere.png" alt= "PixelVerse Studios" width= "900">
 </p>
 
-<h1 align="center">PixelVerse Studios</h1>
-
-<p align="center">
-Gestion de personnages pour Fantasy Realm Online.
-</p>
-
 # 🎮 PixelVerse Studios
 
 <p align="center">
@@ -32,11 +26,8 @@ Gestion de personnages pour Fantasy Realm Online.
 </p>
 
 <p align="center">
-
-[![Statut](https://img.shields.io/badge/Statut-En%20développement-success?style=flat-square)](https://github.com/GrEg12oRi/PixelVerse-Studios)
-
-[![Projet](https://img.shields.io/badge/Projet-Formation-orange?style=flat-square)](https://github.com/GrEg12oRi/PixelVerse-Studios)
-
+    <img src="https://img.shields.io/badge/Statut-En%20développement-success?style=flat-square" alt="Statut">
+    <img src="https://img.shields.io/badge/Projet-Formation-orange?style=flat-square" alt="Projet de formation">
 </p>
 
 Application web de gestion de personnages pour **Fantasy Realm Online**, un MMORPG imaginé par **PixelVerse Studios**.
