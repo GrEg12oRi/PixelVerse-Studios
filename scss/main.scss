@@ -27,7 +27,9 @@ footer.footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  color: $secondary;
 }
+
 //changement de police pour les paragraphes
 p{
   font-family: $font-family-serif;
