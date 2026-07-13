@@ -1,9 +1,9 @@
 html {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #c28e0063;
-  color: #003366;
+  font-family: var(--pv-font-ui, Arial, sans-serif);
+  background-color: var(--pv-surface-soft, rgba(194, 142, 0, 0.1));
+  color: var(--pv-primary, #003366);
 }
 
 body {
@@ -12,17 +12,23 @@ body {
 }
 
 fieldset {
-  border: 4px solid #ccac00;
+  border: 4px solid var(--pv-secondary, #ccac00);
   max-width: 700px;
   margin: 20px auto;
   padding: 10px;
-  border-radius: 10px;
-  background-color: #e0e0e0;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    var(--pv-surface-strong, #f7f0dc),
+    var(--pv-surface, #e0e0e0)
+  );
+  box-shadow: var(--pv-shadow, 0 18px 40px rgba(0, 0, 0, 0.12));
 }
 
 fieldset legend {
   font-size: 28px;
   font-weight: bold;
+  color: var(--pv-primary, #003366);
 }
 
 fieldset h1 {
@@ -36,57 +42,62 @@ fieldset h2 {
 }
 
 #form-group {
-  
   max-width: 500px;
   margin: 5px auto;
   padding: 10px;
-  border: 2px solid #ccac00;
-  border-radius: 10px;
-  background-color: #e0e0e0;
+  border: 2px solid var(--pv-secondary, #ccac00);
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    var(--pv-surface-strong, #f7f0dc),
+    var(--pv-surface, #e0e0e0)
+  );
 }
 
 div label {
   margin: 5px;
   font-size: 20px;
   font-weight: bold;
+  color: var(--pv-primary, #003366);
 }
 
 div input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 2px solid #ccac00;
-  border-radius: 5px;
+  border: 2px solid var(--pv-secondary, #ccac00);
+  border-radius: 10px;
   box-sizing: border-box;
-  background-color: #e0e0e0;
+  background-color: var(--pv-surface, #e0e0e0);
 }
 
 div button {
   display: flex;
   align-items: center;
   margin: 0px auto;
-  background-color: #003366;
-  color: #ccac00;
+  background: linear-gradient(135deg, var(--pv-primary, #003366), #0a2b52);
+  color: var(--pv-secondary, #ccac00);
   width: auto;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 999px;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
+  border: 1px solid rgba(255, 221, 0, 0.2);
+  box-shadow: var(--pv-shadow, 0 18px 40px rgba(0, 0, 0, 0.12));
 }
 
 div button:hover {
-  background-color: #ccac00;
-  color: #003366;
+  background: linear-gradient(135deg, var(--pv-secondary, #ccac00), var(--pv-accent, #ffdd00));
+  color: var(--pv-primary, #003366);
 }
 
 div a {
-
   font-weight: bold;
-  color: #003366;
+  color: var(--pv-primary, #003366);
 }
 
 div a:hover {
   text-decoration: none;
-  color: #ccac00;
+  color: var(--pv-secondary, #ccac00);
 }

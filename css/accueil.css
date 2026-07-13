@@ -1,9 +1,9 @@
 html {
   margin: 0;
   padding: 0;
-
-  background-color: #c28e0063;
-  color: #003366;
+  font-family: var(--pv-font-ui, Arial, sans-serif);
+  background-color: var(--pv-surface-soft, rgba(194, 142, 0, 0.1));
+  color: var(--pv-primary, #003366);
 }
 
 body {
@@ -15,20 +15,29 @@ h1 {
   text-align: center;
   margin-top: 20px;
   font-size: 54px;
+  color: var(--pv-primary, #003366);
+  letter-spacing: 0.03em;
 }
 
 section {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .text {
   padding: 20px;
   margin: 20px;
-  background-color: #e0e0e0;
-  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    var(--pv-surface-strong, #f7f0dc),
+    var(--pv-surface, #e0e0e0)
+  );
+  border-radius: 16px;
   max-width: 50%;
   text-align: center;
+  box-shadow: var(--pv-shadow, 0 18px 40px rgba(0, 0, 0, 0.12));
+  border: 1px solid rgba(0, 51, 102, 0.12);
 }
 
 div img {
@@ -53,9 +62,9 @@ div img {
 }
 
 .btn1 {
-  background-color: #003366;
-  color: #ccac00;
-  border: none;
+  background: linear-gradient(135deg, var(--pv-primary, #003366), #0a2b52);
+  color: var(--pv-secondary, #ccac00);
+  border: 1px solid rgba(255, 221, 0, 0.2);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -63,13 +72,19 @@ div img {
   font-size: 18px;
   margin: 10px 2px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 999px;
   font-weight: bold;
+  box-shadow: var(--pv-shadow, 0 18px 40px rgba(0, 0, 0, 0.12));
+}
+
+.btn1:hover {
+  background: linear-gradient(135deg, var(--pv-secondary, #ccac00), var(--pv-accent, #ffdd00));
+  color: var(--pv-primary, #003366);
 }
 
 #main-page footer {
-  background-color: #036;
-  color: #ccac00;
+  background: linear-gradient(90deg, var(--pv-primary, #003366), #0a2b52);
+  color: var(--pv-secondary, #ccac00);
   text-align: center;
   padding: 10px;
   position: static;

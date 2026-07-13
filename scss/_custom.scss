@@ -1,14 +1,18 @@
-$primary : #003366;
-$secondary : #CCAC00;
-$tertiary : #FFDD00;
+$primary: #003366;
+$secondary: #ccac00;
+$tertiary: #ffdd00;
+$dark: #003366;
+$body-bg: #ccac00;
+$body-color: #0f2442;
+$headings-color: #003366;
+$link-color: #ffdd00;
+$link-hover-color: #ccac00;
 $navbar-hover-color: #ffdd00;
 $nav-link-hover-color: #ffdd00;
-//changer couleur hover nav-link
-$dark : #003366;
-$body-bg: rgba(194, 142, 0, 0.1);
+$border-radius: 1rem;
+$border-radius-lg: 1.25rem;
+$box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 $font-family-sans-serif: "Montserrat", sans-serif !default;
 $font-family-serif: "Mooli", serif !default;
-
-//voir pourquoi polices prises en comptes mais non mises en place
 
 @import "../node_modules/bootstrap/scss/bootstrap";

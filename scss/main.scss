@@ -1,25 +1,59 @@
 @import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import "custom";
 
+:root {
+  --pv-primary: #003366;
+  --pv-secondary: #ccac00;
+  --pv-accent: #ffdd00;
+  --pv-surface: #e0e0e0;
+  --pv-surface-soft: rgba(194, 142, 0, 0.1);
+  --pv-surface-strong: #f7f0dc;
+  --pv-text: #0f2442;
+  --pv-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+  --pv-radius: 1rem;
+  --pv-font-ui: "Montserrat", sans-serif;
+  --pv-font-text: "Mooli", serif;
+}
+
 html {
   position: relative;
   min-height: 100%;
+  background:
+    radial-gradient(circle at top, rgba(255, 221, 0, 0.14), transparent 34%),
+    linear-gradient(180deg, rgba(194, 142, 0, 0.14), #ccac00 46%, rgba(194, 142, 0, 0.08));
+  color: var(--pv-primary);
 }
-a {
-  color: $tertiary;
-  text-decoration: none;
 
+body {
+  margin: 0;
+  color: var(--pv-text);
+  background: transparent;
 }
+
+a {
+  color: var(--pv-accent);
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+a:hover {
+  color: var(--pv-secondary);
+}
+
 main {
   margin-bottom: 75px;
 }
-.nav-link{
-  color: $secondary;
+
+.nav-link {
+  color: var(--pv-secondary);
+  font-weight: 600;
 }
 
 .navbar-dark,
 .navbar[data-bs-theme="dark"] {
-  --bs-navbar-hover-color: #ffdd00;
+  --bs-navbar-hover-color: var(--pv-accent);
 }
 
 footer.footer {
@@ -27,11 +61,14 @@ footer.footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  color: $secondary;
+  color: var(--pv-secondary);
+  background: linear-gradient(90deg, #003366, #0a2b52);
+  box-shadow: var(--pv-shadow);
 }
 
-//changement de police pour les paragraphes
-p{
-  font-family: $font-family-serif;
+// changement de police pour les paragraphes
+p {
+  font-family: var(--pv-font-text, $font-family-serif);
   font-size: 18px;
+  line-height: 1.7;
 }

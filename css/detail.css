@@ -1,9 +1,9 @@
 html {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #c28e0063;
-  color: #003366;
+  font-family: var(--pv-font-ui, Arial, sans-serif);
+  background-color: var(--pv-surface-soft, rgba(194, 142, 0, 0.1));
+  color: var(--pv-primary, #003366);
 }
 
 body {
@@ -15,12 +15,14 @@ h1 {
   text-align: center;
   margin-top: 20px;
   font-size: 54px;
-  font-family: "Arial Black", sans-serif;
+  font-family: var(--pv-font-ui, "Montserrat", sans-serif);
+  color: var(--pv-primary, #003366);
 }
 h2 {
   text-align: center;
   margin: 10px;
   font-size: 30px;
+  color: var(--pv-secondary, #ccac00);
 }
 
 section {
@@ -40,20 +42,22 @@ section {
 button {
   display: flex;
   align-items: center;
-  background-color: #003366;
-  color: #ccac00;
+  background: linear-gradient(135deg, var(--pv-primary, #003366), #0a2b52);
+  color: var(--pv-secondary, #ccac00);
   width: auto;
   padding: 10px;
   margin: 10px auto;
-  border-radius: 10px;
+  border-radius: 999px;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
+  border: 1px solid rgba(255, 221, 0, 0.2);
+  box-shadow: var(--pv-shadow, 0 18px 40px rgba(0, 0, 0, 0.12));
 }
 
 button:hover {
-  background-color: #ccac00;
-  color: #003366;
+  background: linear-gradient(135deg, var(--pv-secondary, #ccac00), var(--pv-accent, #ffdd00));
+  color: var(--pv-primary, #003366);
 }
 
 div {
@@ -65,19 +69,25 @@ div {
   margin: 10px;
   max-width: 40%;
   text-align: center;
+  background: linear-gradient(
+    180deg,
+    var(--pv-surface-strong, #f7f0dc),
+    var(--pv-surface, #e0e0e0)
+  );
+  border-radius: 16px;
+  box-shadow: var(--pv-shadow, 0 18px 40px rgba(0, 0, 0, 0.12));
 }
 
 div img {
   max-width: 75%;
   height: auto;
-  border: #003366 solid 2px;
-  border-radius: 5px;
+  border: var(--pv-primary, #003366) solid 2px;
+  border-radius: 12px;
 }
 
 p {
   font-size: 18px;
-  color: #003366;
+  color: var(--pv-primary, #003366);
   margin: 10px;
+  line-height: 1.7;
 }
-
-

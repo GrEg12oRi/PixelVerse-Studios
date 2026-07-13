@@ -49,6 +49,7 @@ moderne développée en **HTML**, **SCSS**, **Bootstrap** et **JavaScript**.
 - [▶️ Lancer le projet](#️-lancer-le-projet)
 - [📦 Dépendances](#-dépendances)
 - [🗂️ Architecture](#️-architecture)
+- [🎨 Charte graphique](#-charte-graphique)
 - [🎨 Objectif du projet](#-objectif-du-projet)
 - [📸 Aperçu](#-aperçu)
 - [🔮 Évolutions prévues](#-évolutions-prévues)
@@ -415,6 +416,59 @@ responsabilités :
 - Suivi des modifications de personnages
 
 ---
+
+## 🎨 Charte graphique
+
+La charte graphique du projet repose sur un univers fantasy/gaming sobre, avec une identité visuelle
+cohérente sur l'ensemble des pages.
+
+### Palette de couleurs
+
+- Bleu principal : `#003366`
+- Doré secondaire : `#CCAC00`
+- Jaune accent : `#FFDD00`
+- Fond principal : `#CCAC00`
+- Fond léger : `rgba(194, 142, 0, 0.1)`
+- Surface claire : `#E0E0E0`
+- Surface chaude : `#F7F0DC`
+- Texte principal : `#0F2442`
+
+### Variables de thème
+
+- `--pv-primary`, `--pv-secondary` et `--pv-accent` portent la palette principale
+- `--pv-surface`, `--pv-surface-soft` et `--pv-surface-strong` gèrent les fonds et panneaux
+- `--pv-shadow` et `--pv-radius` gèrent la profondeur et les arrondis
+- `--pv-font-ui` et `--pv-font-text` définissent la hiérarchie typographique
+
+### Typographies
+
+- Titres et interface : `Montserrat`
+- Textes courants : `Mooli`
+
+### Composants communs
+
+- Barre de navigation sombre avec survol doré
+- Liens et boutons orientés vers les couleurs de la marque
+- Footer cohérent avec le header
+- Paragraphes plus lisibles grâce à une police sérif légère
+
+### Direction visuelle
+
+L'ambiance vise un rendu fantasy premium: fond global en dégradé, aplats bleu nuit, accents dorés,
+surfaces crème, cartes arrondies et ombres douces pour donner plus de profondeur sans alourdir
+l'interface.
+
+### Fichiers de référence
+
+- [scss/\_custom.scss](scss/_custom.scss) centralise les variables Bootstrap et la palette
+- [scss/main.scss](scss/main.scss) applique les styles globaux du site
+- [html/index.html](html/index.html) contient le layout commun avec header et footer
+
+### Règle de maintenance
+
+Pour garder une charte propre, il faut éviter de répéter les mêmes couleurs dans chaque fichier CSS
+de page. Les fichiers comme `accueil.css` ou `contact.css` doivent surtout gérer la mise en page
+spécifique, tandis que les éléments communs doivent rester dans le SCSS principal.
 
 ## 🎨 Objectif du projet
 
