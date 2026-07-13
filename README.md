@@ -470,7 +470,7 @@ Pour garder une charte propre, il faut éviter de répéter les mêmes couleurs 
 de page. Les fichiers comme `accueil.css` ou `contact.css` doivent surtout gérer la mise en page
 spécifique, tandis que les éléments communs doivent rester dans le SCSS principal.
 
-## 🎨 Objectif du projet
+## 🎯 Objectif du projet
 
 L'objectif est de proposer une interface immersive et claire permettant aux joueurs de **Fantasy
 Realm Online** de gérer facilement leurs personnages et d'accéder rapidement aux principales
@@ -499,6 +499,9 @@ La page d'accueil présente le studio, le jeu et l'accès rapide vers la créati
 <p align="center">
     <img src="./Docs/Aperçu accueil.png" alt="Aperçu de la page d'accueil" width="900">
 </p>
+<p align="center">
+    <img src="./Docs/Aperçu accueil 2.png" alt="Aperçu de la page d'accueil" width="900">
+</p>
 
 ### Galerie des personnages
 
@@ -507,6 +510,9 @@ personnages générées par la galerie.
 
 <p align="center">
     <img src="./Docs/Aperçu Galerie.png" alt="Aperçu de la galerie des personnages" width="900">
+</p>
+<p align="center">
+    <img src="./Docs/Aperçu Galerie 2.png" alt="Aperçu de la galerie des personnages" width="900">
 </p>
 
 ### Création de personnage
@@ -538,6 +544,9 @@ Le formulaire de contact regroupe les informations utilisateur, le sujet de la d
 
 <p align="center">
     <img src="./Docs/aperçu contact.png" alt="Aperçu de la page contact" width="900">
+</p>
+<p align="center">
+    <img src="./Docs/aperçu contact 2.png" alt="Aperçu de la page contact" width="900">
 </p>
 
 ### Connexion et compte
