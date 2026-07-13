@@ -345,7 +345,7 @@ Ce système facilite l'organisation des différentes pages de l'application.
 Le diagramme ci-dessous présente les principales interactions entre les utilisateurs et les fonctionnalités de l'application.
 
 <p align="center">
-    <img src="./docs/Cas d&apos;utilisation.drawio (4).png" alt="Diagramme des cas d'utilisation" width="900">
+    <img src="./Docs/Cas d&apos;utilisation.drawio (4).png" alt="Diagramme des cas d'utilisation" width="900">
 </p>
 
 Ce diagramme met en évidence les différentes fonctionnalités accessibles aux utilisateurs, notamment :
