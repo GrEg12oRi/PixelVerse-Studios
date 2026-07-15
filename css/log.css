@@ -90,6 +90,7 @@ div button {
 div button:hover {
   background: linear-gradient(135deg, var(--pv-secondary, #ccac00), var(--pv-accent, #ffdd00));
   color: var(--pv-primary, #003366);
+
 }
 
 div a {
